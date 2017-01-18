@@ -139,7 +139,7 @@ def _parse_args():
         required=True, help='Where to store the persistent state')
     parser.add_argument(
         '--host', action='store',
-        default='localhost', help='Flask host conf')
+        default='0.0.0.0', help='Flask host conf')
     parser.add_argument(
         '-p', '--port', action='store', type=int,
         default=5000, help='Flask port conf')
